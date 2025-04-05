@@ -20,6 +20,11 @@ form.addEventListener('submit', (e)=>{
     if(messages.length>0){
         e.preventDefault()
         errorElement.innerText=messages.join(', ')
+    }else{
+        e.preventDefault(); // stop actual form submission
+        alert("Form submitted successfully!");
+        form.reset();
+        errorElement.innerHTML = "";
     }
      
 })
