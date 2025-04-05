@@ -1,0 +1,15 @@
+body{
+  background-color: aquamarine;
+}
+
+#forms{
+    margin: 100px 100px;
+    background: rgb(192, 192, 192);
+    padding: 50px 50px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
